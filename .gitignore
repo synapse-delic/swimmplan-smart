@@ -1,6 +1,7 @@
 node_modules/
 build/
 dist/
+.vite/
 coverage/
 .DS_Store
 *.log
@@ -9,7 +10,7 @@ coverage/
 
 # Python virtual environment and tooling cache
 agent_backend/.venv/
-agent_backend/.adk/
+**/.adk/
 agent_backend/artifacts/
 **/__pycache__/
 *.pyc
