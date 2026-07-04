@@ -1,0 +1,17 @@
+{
+  "short_name": "SwimTrainer",
+  "name": "Synapse Delić Swim Trainer",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#efefef",
+  "theme_color": "#007d8a",
+  "display": "standalone",
+  "orientation": "any"
+}

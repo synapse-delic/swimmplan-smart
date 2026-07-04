@@ -1,0 +1,6 @@
+# agents-cli-manifest.yaml
+version: 1
+project_name: swimmplan-agent
+agent_directory: app
+deployment_target: agent_runtime
+region: europe-west1

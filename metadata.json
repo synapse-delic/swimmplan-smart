@@ -1,0 +1,6 @@
+{
+  "name": "Swim Training Tracker",
+  "description": "Ein moderner, OLED-optimierter Trainingsplaner für Schwimmer mit Drag-&-Drop-Timeline, dynamischer Zeitberechnung und anpassbarer Übungsbibliothek.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

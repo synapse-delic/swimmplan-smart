@@ -1,0 +1,20 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python virtual environment and tooling cache
+agent_backend/.venv/
+agent_backend/.adk/
+agent_backend/artifacts/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ZIP files
+*.zip

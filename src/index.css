@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Noto Sans", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-black: #212121; /* Deep brand charcoal black */
+  --color-brand-card: #ffffff; /* Primary card panels will be crisp white */
+  --color-brand-hover: #efefef; /* Light gray for hovered states */
+  --color-brand-border: #212121; /* Strong, bold, high-contrast borders */
+
+  --color-synapse-gold: #f2a900;
+  --color-synapse-petrol: #007d8a;
+  --color-synapse-black: #212121;
+  --color-synapse-gray: #efefef;
+
+  /* Refines the swim block category colors for high legibility on a light background */
+  --color-cat-warmup: #0088cc;
+  --color-cat-drills: #b300b3;
+  --color-cat-mainset: #009900;
+  --color-cat-sprint: #d49a00;
+  --color-cat-cooldown: #0066cc;
+}
+
+body {
+  background-color: #efefef; /* 7 % brand black background as requested */
+  color: #212121; /* High contrast dark charcoal text */
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom styles for sharp layout */
+.border-sharp {
+  border-radius: 0px !important;
+}
+
+button, input, select, textarea {
+  border-radius: 0px !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
